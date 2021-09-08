@@ -11,5 +11,11 @@ public class TestController {
 	{
 		return "Rest works";
 	}
+	
+	@GetMapping
+	public String VeriyAnotherEndpoint()
+	{
+		return "Rest works again";
+	}
 
 }
