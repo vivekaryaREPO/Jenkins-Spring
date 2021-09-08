@@ -9,6 +9,7 @@ class JenkinsSpringApplicationTests {
 	@Test
 	void contextLoads() {
 		System.out.println("test cases will go here");
+		System.out.println("Email configuration set on jenkins");
 	}
 
 }
